@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wdth,wght@112.5,200..900&family=Luckiest+Guy&family=Outfit:wght@100..900&display=swap');
+
+.calc{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(28, 27, 27);
+    /* margin-left: 400px; */
+}
+.screen{
+    width: 60%;
+    margin-left: 36px;
+    height: 40px;
+    margin-top: 30px;
+    pointer-events: none;
+    border: solid 1px;
+}
+
+.btn{
+    width: 55px;
+    height: 45px;
+    margin-left: 34px;
+    margin-top: 35px;
+    background: none;
+    border: none;
+    outline: none;
+    border-color:rgb(28, 27, 27) ;
+    color: aliceblue;
+    text-size-adjust: 4px;
+    position: relative;
+}
+button:active{
+    color: white;
+}
+button:active::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust thickness of the border */
+  background-color: white; /* White bottom border */
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+#clr{
+    margin-left: 31px;
+    background: orange;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headding{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow effect */
+  -webkit-text-stroke: 1px black; /* Text border */
+  -moz-text-stroke: 1px black; /* For compatibility */
+}
